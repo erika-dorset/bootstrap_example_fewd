@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Linking Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 text-light">Navbar</span>
+        </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container space">
+            <h1 class="display-3 text-light">Fluid jumbotron</h1>
+            <p class="lead text-light">Too many people use jumbotrons...the aren't even that great. Thats my unpopular
+                opinion!</p>
+        </div>
+    </div>
+
+    <!-- Cards container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm pad">
+                <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Cards</h5>
+                        <p class="card-text">Bootsrap cards are very useful, I like to use them for highlighting
+                            information!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm pad">
+                <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Cat with Mask</h5>
+                        <p class="card-text">Look at the cat with mask, even it cares about it's safety. Wear your masks
+                            guys!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm pad">
+                <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">I like to use Bootstrap for making easy websites because I am a lazy
+                            person.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slideshow and Form container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop"
+                                class="d-block w-100" alt="Cat with mask">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop"
+                                class="d-block w-100" alt="Cat with mask">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop"
+                                class="d-block w-100" alt="Cat with mask">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png"
+                        alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary" href="#">Cool stuff</a></li>
+                        <li><a class="link-secondary" href="#">Random feature</a></li>
+                        <li><a class="link-secondary" href="#">Team feature</a></li>
+                        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+                        <li><a class="link-secondary" href="#">Another one</a></li>
+                        <li><a class="link-secondary" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary" href="#">Resource</a></li>
+                        <li><a class="link-secondary" href="#">Resource name</a></li>
+                        <li><a class="link-secondary" href="#">Another resource</a></li>
+                        <li><a class="link-secondary" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary" href="#">Team</a></li>
+                        <li><a class="link-secondary" href="#">Locations</a></li>
+                        <li><a class="link-secondary" href="#">Privacy</a></li>
+                        <li><a class="link-secondary" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Linking Bootstrap JS plugins -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

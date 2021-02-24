@@ -1,0 +1,16 @@
+/* Add space between cards and jumbotron */
+.space{
+    padding: 10em;
+}
+
+.pad{
+    padding: 4em;
+}
+
+/* Colors */
+.jumbotron{
+    background-color: #2f2fa1;
+}
+nav{
+    background-color: #242381;
+}
